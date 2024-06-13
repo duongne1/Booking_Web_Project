@@ -1,11 +1,10 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="block">
-      <h1 className="text-3xl font-bold text-yellow-400 underline">
-        Hello các bạn
-      </h1>
+    <div className="root">
+      <Header />
     </div>
   );
 }
